@@ -1,0 +1,25 @@
+{
+    "name": "juslintek/zaidimustalai",
+    "description": "E-Shop for table Games",
+    "type": "project",
+    "require": {
+        "n98/magerun": "^1.100",
+        "magento-hackathon/magento-composer-installer": "^3.1",
+        "aydin-hassan/magento-core-composer-installer": "^1.5",
+        "firegento/magento": "v1.9.3.7"
+    },
+    "license": "OSL 3.0",
+    "authors": [
+        {
+            "name": "Linas Jusys",
+            "email": "jusys.linas@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+      "magento-root-dir": "src",
+      "auto-append-gitignore": false,
+      "magento-deploystrategy": "symlink",
+      "magento-force": true
+    }
+}
